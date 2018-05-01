@@ -6,3 +6,6 @@
 
 ## Run
 ./dl.sh "youtube video link"
+
+## Notes
+Sorry guys, but tested on macOS only (for Windows users may not work without cygwin)
