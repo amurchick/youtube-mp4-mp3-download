@@ -1,4 +1,4 @@
-# Downloads Video from Youtube and extract audio track from it to mp3/*.mp3
+# Downloads Video from Youtube and extract audio track to mp3
 
 ## Required:
 - youtube-dl (https://rg3.github.io/youtube-dl/)
