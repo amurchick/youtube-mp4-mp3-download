@@ -8,4 +8,4 @@
 ./dl.sh "youtube video link"
 
 ## Notes
-Sorry guys, but tested on macOS only (for Windows users may not work without cygwin)
+Sorry guys, but tested on macOS only (for Windows users may not work without cygwin, for Linux users - need change `sed` cmd line arguments)
