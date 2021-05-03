@@ -1,3 +1,7 @@
+# Probably not actual since I am found this cmd
+```bash
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 'http://www.youtube.com/watch?v=xxxxxxx'
+```
 # Downloads Video from Youtube and extract audio track to mp3
 
 ## Required:
