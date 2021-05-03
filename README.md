@@ -1,7 +1,3 @@
-# Probably not actual since I am found this cmd
-```bash
-youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 'http://www.youtube.com/watch?v=xxxxxxx'
-```
 # Downloads Video from Youtube and extract audio track to mp3
 
 ## Required:
@@ -13,3 +9,8 @@ youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merg
 
 ## Notes
 Sorry guys, but tested on macOS only (for Windows users may not work without cygwin, for Linux users - need change `sed` cmd line arguments)
+
+# Download video with best video/audio quality
+```bash
+youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4 'http://www.youtube.com/watch?v=xxxxxxx'
+```
